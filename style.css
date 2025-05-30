@@ -1,6 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #E0F2FE;
+    background-color: #f5f8fa;
     margin: 0;
     padding: 1rem;
     align-items: center;
@@ -194,7 +194,7 @@ body {
 }
 .buy-button {
     width: 100%;
-    background-color: #14B8A6;
+    background-color: #038e7d;
     color: white;
     font-weight: 600;
     padding: 0.875rem 1.5rem;
@@ -207,7 +207,7 @@ body {
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
 }
 .buy-button:hover {
-    background-color: #0D9488;
+    background-color: #015f54;
     box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
 }
 .help-text-container {
@@ -242,7 +242,7 @@ body {
 }
 .plan-column {
     width: 100%;
-    background-color: #1E3A8A;
+    background-color: #1179bf;
     color: white;
     padding: 1.5rem;
     border-bottom-left-radius: 0.5rem;
