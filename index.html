@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP Pusher Checkout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="card-header">
+        <div class="header-content">
+          <div class="logo-container">
+            <svg
+              class="logo-svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4ZM13 16V14H11V16H13ZM13 12V7H11V12H13Z"
+              />
+            </svg>
+            <span class="logo-text">WP Pusher</span>
+          </div>
+          <nav class="header-nav">
+            <a href="#" class="nav-link">Download</a>
+            <a href="#" class="nav-link">Learn more</a>
+            <a href="#" class="nav-link">Pricing</a>
+            <a href="#" class="nav-link">Help</a>
+            <a href="#" class="nav-link account-button">Account</a>
+          </nav>
+          <button class="mobile-menu-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="menu-icon-svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </header>
+      <div class="checkout-card">
+        <main class="card-main-content">
+          <div class="form-column">
+            <h1 class="checkout-title">Checkout</h1>
+
+            <section class="form-section">
+              <div class="section-header">
+                <span class="section-number">1</span>
+                <h2 class="section-title">Your Basic Information</h2>
+              </div>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="first-name" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    id="first-name"
+                    value="Jane"
+                    class="form-input"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="last-name" class="form-label">Last Name</label>
+                  <input
+                    type="text"
+                    id="last-name"
+                    value="Doe"
+                    class="form-input"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  value="janedoe@example.com"
+                  class="form-input"
+                />
+              </div>
+            </section>
+
+            <hr class="section-divider" />
+
+            <section class="form-section">
+              <div class="section-header">
+                <span class="section-number">2</span>
+                <h2 class="section-title">Your Payment Information</h2>
+              </div>
+              <div class="form-group">
+                <label for="credit-card" class="form-label">Credit Card</label>
+                <div class="credit-card-group">
+                  <input
+                    type="text"
+                    id="credit-card"
+                    name="credit-card"
+                    placeholder="Card Number"
+                    class="form-input cc-number"
+                  />
+                  <input
+                    type="text"
+                    name="expiry-date"
+                    placeholder="MM / YY"
+                    class="form-input cc-expiry"
+                  />
+                  <input
+                    type="text"
+                    name="cvc"
+                    placeholder="CVC"
+                    class="form-input cc-cvc"
+                  />
+                </div>
+              </div>
+            </section>
+
+            <button class="buy-button">Buy WP Pusher</button>
+
+            <div class="help-text-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="help-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
+                />
+              </svg>
+              Need any help? Don't hesitate to
+              <a href="#" class="contact-link">contact support</a>!
+            </div>
+            <div class="stripe-logo-container">
+              <img
+                src="https://placehold.co/100x25/CCCCCC/FFFFFF?text=stripe"
+                alt="Stripe logo"
+                class="stripe-logo"
+                onerror="this.src='https://placehold.co/100x25/CCCCCC/FFFFFF?text=Stripe+Logo+Error'; this.onerror=null;"
+              />
+            </div>
+          </div>
+
+          <div class="plan-column">
+            <h3 class="plan-name">Freelancer</h3>
+            <div class="plan-price-container">
+              <span class="plan-price">$99</span>
+              <span class="plan-period">/ year</span>
+            </div>
+            <p class="plan-renewal-info">Automatically renews after 1 year</p>
+
+            <ul class="plan-features">
+              <li class="feature-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="feature-icon"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span
+                  >Use on <span class="font-semibold">5</span> client
+                  sites</span
+                >
+              </li>
+              <li class="feature-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="feature-icon"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span>Private repositories</span>
+              </li>
+              <li class="feature-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="feature-icon"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span>Email support</span>
+              </li>
+            </ul>
+
+            <p class="switch-plan-prompt">Need 20 client sites?</p>
+            <a href="#" class="switch-plan-link">Switch to the Agency plan</a>
+
+            <div class="testimonial-section">
+              <blockquote class="testimonial-quote">
+                "FTP is horrible to deal with. WP Pusher solves that issue, and
+                the customer support is awesome!"
+              </blockquote>
+              <div class="testimonial-author">
+                <img
+                  src="https://placehold.co/40x40/FFFFFF/333333?text=KB"
+                  alt="Kirk Beard"
+                  class="author-avatar"
+                  onerror="this.src='https://placehold.co/40x40/CCCCCC/FFFFFF?text=Error'; this.onerror=null;"
+                />
+                <p class="author-name">Kirk Beard</p>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <footer class="card-footer">
+          <p class="footer-text">
+            &copy; <span id="currentYear"></span> WP Pusher IVS —
+            <a href="#" class="terms-link">Terms of Service</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      // Script to set the current year in the footer
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
