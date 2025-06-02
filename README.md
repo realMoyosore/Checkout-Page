@@ -8,7 +8,7 @@ This project is a responsive checkout page for WP Pusher, designed as part of an
 - Custom SVG logo and icons
 - Modern form design for user and payment information
 - Plan summary with features and testimonial
-- Styled using [Inter](https://fonts.google.com/specimen/Inter) font from Google Fonts
+- Styled using [Lato](https://fonts.google.com/specimen/Lato) font from Google Fonts
 - Accessible and semantic HTML structure
 
 ## File Structure
