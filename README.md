@@ -26,7 +26,7 @@ This project is a responsive checkout page for WP Pusher, designed as part of an
 ## Credits
 
 - Design and implementation by Moyosore Sulola
-- Assignment for AltSchool Africa
+- Project for AltSchool Africa
 
 ## License
 
